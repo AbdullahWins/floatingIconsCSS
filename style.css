@@ -1,5 +1,4 @@
 .body {
-  color: red;
   display: flex;
   background-image: linear-gradient(
     to right,
@@ -16,6 +15,11 @@
 }
 
 #img1 {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  z-index: 999;
+  width: 150px;
   animation-name: img1;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -33,6 +37,11 @@
   }
 }
 #img2 {
+  position: absolute;
+  top: 300px;
+  right: 75px;
+  z-index: 999;
+  width: 150px;
   animation-name: img2;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -50,6 +59,11 @@
   }
 }
 #img3 {
+  position: absolute;
+  top: 600px;
+  right: 50px;
+  z-index: 999;
+  width: 150px;
   animation-name: img3;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -67,6 +81,11 @@
   }
 }
 #img4 {
+  position: absolute;
+  bottom: 500px;
+  left: 20px;
+  z-index: 999;
+  width: 150px;
   animation-name: img4;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -84,6 +103,11 @@
   }
 }
 #img5 {
+  position: absolute;
+  bottom: 300px;
+  left: 60px;
+  z-index: 999;
+  width: 150px;
   animation-name: img5;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -101,6 +125,11 @@
   }
 }
 #img6 {
+  position: absolute;
+  bottom: 100px;
+  left: 90px;
+  z-index: 999;
+  width: 150px;
   animation-name: img6;
   animation-duration: 4s;
   animation-iteration-count: infinite;
