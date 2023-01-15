@@ -1,0 +1,119 @@
+.body {
+  color: red;
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgba(170, 6, 170, 0.5),
+    rgba(175, 6, 174, 1)
+  );
+}
+
+.form-body {
+  background-color: white;
+  color: blue;
+  height: 800px;
+  width: 800px;
+}
+
+#img1 {
+  animation-name: img1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img1 {
+  0% {
+    top: 50px;
+  }
+  50% {
+    top: 60px;
+  }
+  100% {
+    top: 50px;
+  }
+}
+#img2 {
+  animation-name: img2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img2 {
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 310px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+#img3 {
+  animation-name: img3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img3 {
+  0% {
+    top: 600px;
+  }
+  50% {
+    top: 590px;
+  }
+  100% {
+    top: 600px;
+  }
+}
+#img4 {
+  animation-name: img4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img4 {
+  0% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 310px;
+  }
+  100% {
+    bottom: 300px;
+  }
+}
+#img5 {
+  animation-name: img5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img5 {
+  0% {
+    bottom: 500px;
+  }
+  50% {
+    bottom: 490px;
+  }
+  100% {
+    bottom: 500px;
+  }
+}
+#img6 {
+  animation-name: img6;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img6 {
+  0% {
+    bottom: 100px;
+  }
+  50% {
+    bottom: 110px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
